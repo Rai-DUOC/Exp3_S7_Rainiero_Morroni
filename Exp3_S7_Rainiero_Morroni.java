@@ -225,7 +225,7 @@ public class Exp3_S7_Rainiero_Morroni {
                             valorTotalCompraActual = valorTotalCompraActual + precioFinalEntrada;
 
                             //Logica para resumir compra en la impresion de boleta.
-                            String detalleEntrada = "Entrada #" + i + ": Sector " + nombreSector + ", Asiento " + numeroAsiento + ", Precio: $" + precioFinalEntrada + ", Descuento: " + (descuento * 100) + "%";
+                            String detalleEntrada = "Entrada #" + i + ": Sector " + nombreSector + ", Asiento " + numeroAsiento + ", Precio: $" + precioFinalEntrada + ", Descuento aplicado: " + (descuento * 100) + "%";
                             resumenEntradasCompra.add(detalleEntrada);
                             //Logica para resumir compras al case 2.
                             resumenTotalEntradas.add(detalleEntrada);
